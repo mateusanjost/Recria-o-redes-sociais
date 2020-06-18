@@ -1,0 +1,118 @@
+.jumbotron {
+    background-color: darkred !important;
+    color: white;
+    border-radius: 0;
+}
+form {
+    padding: 1em;
+}
+body {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.escopoaplication {
+    position: absolute;
+    z-index: 9999;
+    top: 28em;
+    left: 16.9em;
+    width: 159px;
+    height: 105%;
+    transform: rotate(-1deg);
+    margin-left: 0.2em;
+}
+.header img {
+    margin-left: 2.5em;
+    max-height: 20px;
+}
+
+.header {
+    width: 99%;
+    background: rgba(var(--d87,255,255,255),1);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin-top: 0.8em;
+    border-bottom: 1px solid #80808085;  
+
+}
+::before {
+    margin-left: 1em;
+    position: absolute;
+    top: 1em;
+}
+.instagramrecriando {
+    text-transform: uppercase;
+    font-family: auto;
+    position: relative;
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: 0.5em;
+    color: #212529;
+    float: right;
+}
+.escopoimg {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.storys img  {
+   
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid darkred;
+    border-radius: 5em !important;
+}
+.storys img:first-of-type {
+    border: none;
+    margin-right: 2em !important;
+}
+.storys {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.posts {
+    overflow-y: scroll;
+    max-height: 37%;
+    margin-top: -0.7em;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.card-body {
+    padding: 0.25rem;
+    font-size: 10px;
+}.card {
+    margin-bottom: 0.5em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.card-header img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid darkred;
+    border-radius: 5em !important;
+    top: 0;
+    position: absolute;
+    left: 1em;
+}
+.card-header {
+    height: 2em;
+}
+.tres {
+    font-size: 2em;
+    float: right;
+    line-height: 0;
+    margin-top: -0.2em;
+}
