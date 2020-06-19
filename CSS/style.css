@@ -188,3 +188,8 @@ input, span {
     background-color: DodgerBlue !important;
     color: #ffffff;
   }
+  .seta {
+      display: none;
+        position: absolute;
+        left: -2em;
+    }
